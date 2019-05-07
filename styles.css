@@ -1,0 +1,177 @@
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  padding-left: 20px; /*I added this to separate the heart from the border*/
+  height: 35px; /*I randomly changed the size to make it look similar*/
+}
+
+body {
+  font-family: 'Roboto Regular', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+a, #section-1, #section-2{
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  height: 450px;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-left {
+  display: inline-block
+}
+
+.center {
+  margin:0 auto; 
+  padding: 20px;
+  text-align: center;
+}
+
+.colors {
+  color: white;  
+}
+
+header{
+    background-color:rgb(32, 101, 136);
+    height: 550px;
+}
+
+.dark-blue {
+  background-color: rgb(39, 53, 71);
+}
+
+.button {
+  color:white;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 15px;
+  font-size: 15px;
+}
+
+.orange {
+  background-color:rgb(240, 146, 51);
+}
+
+.red{
+  background-color:rgb(203, 56, 55)
+}
+
+.gray {
+  background-color: rgb(49, 68, 88);
+}
+
+
+.search {
+  background-color: rgb(31, 82, 111);
+  border: 1px solid rgb(255, 255, 255, .1);
+}
+
+.bar {
+  height: 25px;
+  width: 500px;
+}
+.search-button {
+  height: 25px;
+  width : 25px;
+}
+
+input::placeholder {
+  color: rgb(255, 255, 255, .2);
+  padding: 10px;
+}
+.col{
+  display: inline-block;
+  height: 30px;
+  padding: 15px;
+  margin: auto;
+}
+
+.login-item {
+  color: white;
+  font-size: .7em;
+  text-decoration: none;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.collaboration-img{
+  width: 300px;
+  margin: auto;
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.background-img{
+  background-size: cover;
+}
+
+.red-link {
+  color:rgb(208, 74, 73);
+}
+
+#section-2{
+  padding-bottom: 200px;
+}
+
+#section-3 {
+  color: rgb(135, 145, 156);
+  padding: 20px;
+}
+
+.dark-gray {
+  color:rgb(83, 88, 98);
+  font-size: 22px;
+}
+
+.icons {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+.absolute {
+  position: absolute;
+}
+
+article {
+  width: 550px;
+  padding-left: 200px;
+  padding-top: 100px;
+  padding-right: 200px;
+}
+
+.new-width {
+  width: 400px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.middle-align {
+  width: 550px;
+  padding-left: 50px;
+  padding-top: 100px;
+  padding-right: 200px;
+}
